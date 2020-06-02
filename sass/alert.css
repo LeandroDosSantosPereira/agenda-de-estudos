@@ -1,0 +1,86 @@
+/* Body alignment */  
+    body { 
+      /*text-align: center; */
+    } 
+    
+    /* Color for h1 tag */
+    h1 { 
+      /*color: green; */
+    } 
+    
+    /* Designing dialog box */
+    #container, #container2 { 
+      position: absolute; 
+      left: 50%; /* posiciona a 90px para a esquerda */ 
+      top: 15%; /* posiciona a 70px para baixo */
+
+      display: none; 
+      /*background-image: linear-gradient(to right, #66a80f, #c0eb75); */
+      border: solid #d0d0d0 1px;
+      background-color: white;
+      background-image: none;
+      background-size:cover; 
+      color: Black; 
+      position: absolute; 
+      width: 310px; 
+      border-radius: 5px; 
+      /*left: 50%; */
+      margin-left: -160px; 
+      padding: 16px 8px 8px; 
+      box-sizing: border-box; 
+    } 
+    
+    /* Designing dialog box's okay buttun */
+    #container .yes, #container2 .yes { 
+      color: white;
+      background-color: #5c940d; 
+      display: inline-block; 
+      border-radius: 5px; 
+      padding: 5px; 
+      margin-right: 10px; 
+      text-align: center; 
+      width: 60px; 
+      float: right; 
+    } 
+    
+    #container .no,   #container2 .no { 
+      background-color: #22b8cf; 
+      display: inline-block; 
+      border-radius: 5px; 
+      padding: 5px; 
+      margin-right: 10px; 
+      text-align: center; 
+      width: 95px; 
+      float: right; 
+    } 
+    
+    #container .yes:hover, #container2 .yes:hover  { 
+      background-color: #82c91e; 
+
+    } 
+    
+    #container .no:hover,  #container2 .no:hover { 
+      background-color: #99e9f2; 
+
+    } 
+    
+    /* Dialog box message decorating */
+    #container .message,  #container2 .message  { 
+      text-align: left; 
+      padding: 10px 30px; 
+    } 
+
+  #close{
+    background-color: #00e676 !important;
+    border: none !important
+  }
+  #del{
+    background-color: #ff4081 !important;
+     border: none !important
+  }
+ #up{
+    background-color: #1cb5d8 !important;
+     border: none !important
+  }
+
+
